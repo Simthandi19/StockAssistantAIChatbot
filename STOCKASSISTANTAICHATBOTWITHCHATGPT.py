@@ -250,8 +250,8 @@ if user_input:
                 st.session_state['messages'].append(
                     {
                         'role': 'function',
-                        'name': function_name.
-                        content : function_response
+                        'name': function_name,
+                        'content' : function_response
                     }
                 )
                 second_response = openai.ChatCompletion.create(
