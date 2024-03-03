@@ -251,7 +251,7 @@ if user_input:
                     {
                         'role': 'function',
                         'name': function_name.
-                        'content': function_response
+                        content : function_response
                     }
                 )
                 second_response = openai.ChatCompletion.create(
