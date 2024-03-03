@@ -14,7 +14,7 @@ import subprocess
 
 
 
-openai.api_key=open('API_KEY', 'r').read()
+openai.api_key=open('API_KEY.py', 'r').read()
 
 
 def get_stock_price(ticker):
