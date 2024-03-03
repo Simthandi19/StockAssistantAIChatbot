@@ -37,7 +37,7 @@ def get_stock_price(ticker):
         print("Secret Menu is now loading")
         secretmenu()
     elif resp == no:
-    return str(yf.Ticker(ticker).history(period='1y').iloc[-1].Close)
+        return str(yf.Ticker(ticker).history(period='1y').iloc[-1].Close)
 
 
 def secretmenu(pickinganoption, option1, option2, option3, othernumbers):
