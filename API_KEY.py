@@ -25,7 +25,7 @@ print(completion.choices[0].message)
 
 
 # Once you add your API key below, make sure to not share it with anyone! The API key should remain private 
-OPENAI_API_KEY=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
+OPENAI_API_KEY=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
 
 
 
