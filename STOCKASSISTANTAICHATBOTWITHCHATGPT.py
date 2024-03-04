@@ -26,8 +26,6 @@ completion = client.chat.completions.create(
 print(completion.choices[0].message)
 
 
-
-
 def get_stock_price(ticker):
     print("Hi would you like to view the secret menu?")
     resp = input("Yes or No? ")
