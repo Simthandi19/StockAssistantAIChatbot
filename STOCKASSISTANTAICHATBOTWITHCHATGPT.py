@@ -25,7 +25,7 @@ completion = client.chat.completions.create(
 
 print(completion.choices[0].message)
 
-openai.api_key="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"
+
 
 
 def get_stock_price(ticker):
