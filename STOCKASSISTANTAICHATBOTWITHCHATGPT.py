@@ -262,4 +262,4 @@ if user_input:
             st.text(response_message['content'])
             st.session_state['messages'].append({'role': 'assistant', 'content': response_message['content']})
     except Exception as e:
-        st.text('Error occurred,', str(e))
+        print(e)
